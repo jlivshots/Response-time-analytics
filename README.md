@@ -1,1 +1,1 @@
-# Home-Price-Estimator-App
+# Home Price Estimator App
