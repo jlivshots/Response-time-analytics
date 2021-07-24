@@ -1,5 +1,6 @@
 # exclude everything
 data/*
+.ipynb_checkpoints/
 
 # exception to the rule
 !data/.gitkeep 
