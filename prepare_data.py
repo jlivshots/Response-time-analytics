@@ -6,7 +6,6 @@ import datetime
 from dateutil import parser
 from datetime import datetime
 
-
 def read_data():
     incidents = pd.read_csv('data/cleaned_data_no_zeros.csv', sep = None, dtype={'YEAR OCCURRED': np.int_, 'MONTH OCCURRED': np.int_,'GEO CODE': np.str_, 'CRIME CATEGORY DESCRIPTION': np.str_,}, engine = 'python')
     
@@ -47,6 +46,8 @@ def read_data():
 
     incidents['CRIME CATEGORY ARRAY'] = onehot_crime_array
     incidents['GEO CODE ARRAY'] = onehot_geocode_array
+    
+    incidents = incidents.drop(columns=['CRIME CATEGORY DESCRIPTION', 'GEO CODE', 'Unnamed: 0'])
     return incidents
 # Get Results:
 
