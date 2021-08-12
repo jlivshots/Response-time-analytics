@@ -4,6 +4,6 @@ Dataset: [Police Incidents in Champaign County since 1988](https://data.ccrpc.or
 ## Running the Project
 * Use [environment.yml](environment.yml) to install dependencies
 * Download the dataset into the [data](data/) folder
-* Run [clean_data.ipynb](clean_data.ipynb) (only needs to be done once)
-* Run [catboost.ipynb](catboost.ipynb)
+* Run [Clean_data.ipynb](Clean_data.ipynb) (only needs to be done once)
+* Run [Catboost.ipynb](Catboost.ipynb)
 
