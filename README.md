@@ -40,3 +40,5 @@ Below is data from modelling response times over 0 mins and within an hour. Resp
 ![image](https://user-images.githubusercontent.com/60240640/129144347-2ebd84ce-f644-46bd-819a-99ca916b5b0f.png)
 ![image](https://user-images.githubusercontent.com/60240640/129144350-0abb3940-d9ab-4c95-8ff7-b30da776b1b6.png)
 ![image](https://user-images.githubusercontent.com/60240640/129144358-bd023f6d-5015-406b-9fdd-0ced5928a877.png)
+## Summaries
+* [All Categories](SHAP-plots/All_categories.pdf)
