@@ -27,3 +27,4 @@ My main data analysis comes from SHAP visualizations to assess feature importanc
 
 ## Findings
 ![image](https://user-images.githubusercontent.com/60240640/129142843-2240f026-0ef4-4cee-9d23-b65ce7f5d42a.png)
+![image](https://user-images.githubusercontent.com/60240640/129142918-8b80726b-ff26-445b-be8e-cfd29ef962cb.png)
