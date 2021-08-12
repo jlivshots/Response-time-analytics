@@ -26,3 +26,4 @@ I used [CatBoost](https://catboost.ai/) to quickly and accurately analyze the da
 My main data analysis comes from SHAP visualizations to assess feature importance on the model. In this project I trained a model to predict police response time in Champaign county given various feature values, and SHAP visualizations help us better undestand each feature's relationship with response time. For the following visuals, the magnitude of the SHAP value indicates how significant that feature is in predicting response time. A positive SHAP value represents an increased response time, and a negative SHAP value indicates a decreased response time. You can learn more about SHAP [here](https://github.com/slundberg/shap).
 
 ## Findings
+![image](https://user-images.githubusercontent.com/60240640/129142843-2240f026-0ef4-4cee-9d23-b65ce7f5d42a.png)
