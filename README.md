@@ -19,8 +19,8 @@ Pre-processed data has the following columns:
 * Day of Month
 * Year Occurred
 
-## Catboost
-I used [Catboost](https://catboost.ai/) to quickly and accurately analyze the dataset because of its support for categorical data (Crime Category Description and Geo Code)
+## CatBoost
+I used [CatBoost](https://catboost.ai/) to quickly and accurately analyze the dataset because of its support for categorical data (Crime Category Description and Geo Code)
 
 ## SHAP
 My main data analysis comes from SHAP visualizations to assess feature importance on the model. In this project I trained a model to predict police response time in Champaign county given various feature values, and SHAP visualizations help us better undestand each feature's relationship with response time. For the following visuals, the magnitude of the SHAP value indicates how significant that feature is in predicting response time. A positive SHAP value represents an increased response time, and a negative SHAP value indicates a decreased response time. You can learn more about SHAP [here](https://github.com/slundberg/shap).
