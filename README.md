@@ -1,6 +1,15 @@
 # Police Response Time Analytics
 Dataset: [Police Incidents in Champaign County since 1988](https://data.ccrpc.org/dataset/police-incidents-since-1988/resource/6e3d7e45-eccf-4e84-9d4e-65d9c455cf49)
 
+## Contents
+- [Markdown - Running the Project](#running-the-project)
+- [Markdown - Understanding the Dataset](#understanding-the-dataset)
+- [Markdown - CatBoost](#catboost)
+- [Markdown - SAHP](#shap)
+- [Markdown - Findings](#findings)
+- [Markdown - Summaries](#summaries)
+
+
 ## Running the Project
 * Use [environment.yml](environment.yml) to install dependencies
 * Download the dataset into the [data](data/) folder
@@ -36,8 +45,6 @@ Below is data from modelling response times over 0 mins and within an hour. Resp
   <img src="https://user-images.githubusercontent.com/60240640/129143564-cb592d2c-b7be-43b0-a0d4-d94eef8b3110.jpg">
 </p>
 
-![image](https://user-images.githubusercontent.com/60240640/129144342-19c6bdec-8142-4e36-a0bd-cb072c086302.png)
-![image](https://user-images.githubusercontent.com/60240640/129144347-2ebd84ce-f644-46bd-819a-99ca916b5b0f.png)
 ## Summaries
 * [All Categories (200282 entries)](SHAP-plots/All_categories.pdf)
 * [Traffic Offenses (10870 entries)](SHAP-plots/traffic_offenses.pdf)
