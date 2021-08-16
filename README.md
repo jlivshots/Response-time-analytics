@@ -2,12 +2,12 @@
 Dataset: [Police Incidents in Champaign County since 1988](https://data.ccrpc.org/dataset/police-incidents-since-1988/resource/6e3d7e45-eccf-4e84-9d4e-65d9c455cf49)
 
 ## Contents
-- [Markdown - Running the Project](#running-the-project)
-- [Markdown - Understanding the Dataset](#understanding-the-dataset)
-- [Markdown - CatBoost](#catboost)
-- [Markdown - SAHP](#shap)
-- [Markdown - Findings](#findings)
-- [Markdown - Summaries](#summaries)
+- [Running the Project](#running-the-project)
+- [Understanding the Dataset](#understanding-the-dataset)
+- [CatBoost](#catboost)
+- [SAHP](#shap)
+- [Findings](#findings)
+- [Summaries](#summaries)
 
 
 ## Running the Project
